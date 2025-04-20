@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ffcc00;
+        }
+        .header h1 {
+            color: #ffcc00;
+            font-size: 22px;
+            margin: 0;
+        }
+        .contact {
+            font-size: 12px;
+            margin-top: -5px;
+        }
+        .section {
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .section h2 {
+            font-size: 18px;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #ffcc00;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+        .project strong {
+            color: #ffcc00;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill {
+            background: #ffcc00;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="kalyani_photo.jpg" alt="Your Photo">
+            <h1>Kalyani Bhise</h1>
+            <p>Engineering Student | Tech Enthusiast | Problem Solver</p>
+            <div class="contact">
+                <p>Email: kalyaniibhise0306@gmail.com | Phone: +91 9130381150</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Driven engineering student passionate about technology, problem-solving, and creating innovative solutions. Skilled in web development, machine learning, and cloud computing.</p>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="project1.jpeg" alt="Project Image">
+                    <strong>Namaste Translator</strong>
+                    <p>A Python-based multilingual translation tool using open-source libraries, offering text-to-text, voice-to-text, and text-to-voice translation in any language.</p>
+                </div>
+                <div class="project">
+                    <img src="project2.png" alt="Project Image">
+                    <strong>Business Analytical Dashboard</strong>
+                    <p>A MERN stack dashboard that visualizes revenue and profit data while predicting future outcomes to aid decision-making.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">C/C++</span>
+                <span class="skill">DSA</span>
+                <span class="skill">Machine Learning</span>
+                <span class="skill">Cloud Computing</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
